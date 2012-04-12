@@ -1,6 +1,8 @@
 ﻿//History
 //===================================================================================================
+// 20120412 |  1.1.3  | Nino Liu   |  Add condition flow control 
 //===================================================================================================
+#define GCOM
 
 using System;
 using System.Collections.Generic;
@@ -14,8 +16,11 @@ namespace Dongle_Test_Suite_2._1
     class Parameters
     {
         //constants
-        //public const string mainfilepath = "C:\\Program Files\\ThinkEco Test Suite\\Dongle Test Module B 1.1";
+#if !GCOM
+        public const string mainfilepath = "C:\\Program Files\\ThinkEco Test Suite\\Dongle Test Module B 1.1";
+#else
         public const string mainfilepath = "D:\\Project\\ThinkEco dongle test procedure\\Dongle Test Module B - Test and Load Source Code\\Dongle_B_Test_and_Load\\Dongle Test Suite 2.0\\res\\Dongle Test Module B 1.1";
+#endif
         public const string settingsfilepath = mainfilepath + "\\Settings.txt";
         public const string testingfilepath = mainfilepath + "\\testing";
         public const string loadingfilepath = mainfilepath + "\\loading";
