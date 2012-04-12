@@ -1,0 +1,1 @@
+2012/4/11 上午 11:40:21	804F580000001234	0403	8C81	AEVD8ISF	Testing_Only	9.2	NINO-LITEON	USBTestModuleB1.1_4_11_2012	_	1	0	0	32132132	0	_	c 0	f 0	0	10	0	_	This_dongle_does_not_have_trim_values_loaded.__Please_send_back_to_frequency_counter_station_with_Dongle_Test_Module_A.
